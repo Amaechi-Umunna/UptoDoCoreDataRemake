@@ -13,6 +13,8 @@
 		5860085A2944A82B00BCA7F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586008592944A82B00BCA7F7 /* Preview Assets.xcassets */; };
 		5860085C2944A82B00BCA7F7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5860085B2944A82B00BCA7F7 /* Persistence.swift */; };
 		5860085F2944A82B00BCA7F7 /* UptoDoCoreDataRemake.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5860085D2944A82B00BCA7F7 /* UptoDoCoreDataRemake.xcdatamodeld */; };
+		586008672944A92B00BCA7F7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586008662944A92B00BCA7F7 /* MainView.swift */; };
+		5860086B2945D24300BCA7F7 /* OnboardingComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5860086A2945D24300BCA7F7 /* OnboardingComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		586008592944A82B00BCA7F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5860085B2944A82B00BCA7F7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		5860085E2944A82B00BCA7F7 /* UptoDoCoreDataRemake.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UptoDoCoreDataRemake.xcdatamodel; sourceTree = "<group>"; };
+		586008662944A92B00BCA7F7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5860086A2945D24300BCA7F7 /* OnboardingComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 		586008512944A82A00BCA7F7 /* UptoDoCoreDataRemake */ = {
 			isa = PBXGroup;
 			children = (
+				586008652944A91400BCA7F7 /* Main */,
 				586008522944A82A00BCA7F7 /* UptoDoCoreDataRemakeApp.swift */,
 				586008542944A82A00BCA7F7 /* ContentView.swift */,
 				586008562944A82B00BCA7F7 /* Assets.xcassets */,
@@ -71,6 +76,15 @@
 				586008592944A82B00BCA7F7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		586008652944A91400BCA7F7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				586008662944A92B00BCA7F7 /* MainView.swift */,
+				5860086A2945D24300BCA7F7 /* OnboardingComponent.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +160,8 @@
 				5860085F2944A82B00BCA7F7 /* UptoDoCoreDataRemake.xcdatamodeld in Sources */,
 				5860085C2944A82B00BCA7F7 /* Persistence.swift in Sources */,
 				586008552944A82A00BCA7F7 /* ContentView.swift in Sources */,
+				586008672944A92B00BCA7F7 /* MainView.swift in Sources */,
+				5860086B2945D24300BCA7F7 /* OnboardingComponent.swift in Sources */,
 				586008532944A82A00BCA7F7 /* UptoDoCoreDataRemakeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
